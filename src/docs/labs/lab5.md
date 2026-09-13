@@ -1,1 +1,1 @@
-Лабораторная работа сделана по ссылке [Lab5](https://colab.research.google.com/drive/1lgGU8a2-XLwb3_nrbfUmYXlcxlOk_P0a?usp=sharing)
+Лабораторная работа сделана по ссылке [Lab5](https://drive.google.com/file/d/138qGi8AY_jcoiEwO-ceZASaqcOlF5d9F/view?usp=sharing)
