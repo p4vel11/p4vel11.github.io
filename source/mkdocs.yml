@@ -1,0 +1,46 @@
+site_name: Портфолио Павла Солдатова
+site_description: Лабораторные работы студента ИТМО
+site_author: Павел Солдатов
+
+theme:
+  name: material
+  language: ru
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+
+nav:
+  - Главная: index.md
+  - Об авторе: about.md
+  - Лабораторные работы:
+      - Лабораторная работа №1: labs/lab1.md
+      - Лабораторная работа №2: labs/lab2.md
+      - Лабораторная работа №3: labs/lab3.md
+      - Лабораторная работа №4: labs/lab4.md
+      - Лабораторная работа №5: labs/lab5.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details

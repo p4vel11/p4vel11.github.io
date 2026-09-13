@@ -1,0 +1,19 @@
+# Python
+../.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MkDocs
+site/
+
+# Python packaging
+*.egg-info/
