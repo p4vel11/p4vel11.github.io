@@ -1,0 +1,26 @@
+on:
+  push:
+    workflows: build-site
+    filter:
+      branches: main
+
+workflows:
+  build-site:
+    tasks:
+      - name: build-and-publish-site
+        cubes:
+          - name: build-mkdocs-site
+            image: docker.io/library/python:3.13-slim
+            script:
+              - python -m pip install --upgrade pip
+              - "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
+              - cd ./src && mkdocs build -d ../docs
+              - echo "Сайт собран в папке ../docs"
+              - ls -la ../docs
+
+          - name: publish-to-release-branch
+            script:
+              - git checkout -b release
+              - git add ./docs
+              - "git commit -m \"feat: автоматическое обновление сайта\""
+              - "git push origin release -f"
