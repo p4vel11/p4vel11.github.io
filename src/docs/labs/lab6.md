@@ -1,0 +1,1 @@
+Лабораторная работа сделана по ссылке [Lab 6](https://drive.google.com/file/d/15Arxw3MlG0gL4QQCQ9y5MtOrVagknaLs/view?usp=sharing)
