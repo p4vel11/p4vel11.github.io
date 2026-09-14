@@ -1,0 +1,1 @@
+Лабораторная работа сделана по ссылке [Lab8](https://colab.research.google.com/drive/1ZXoTax7U9e8ulIcqQg1CffNbIor_Whhj?usp=sharing)
